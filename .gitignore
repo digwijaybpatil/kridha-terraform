@@ -1,0 +1,44 @@
+# ---- Terraform directories ----
+.terraform/
+.terraform.tfstate.lock.info
+
+# ---- Terraform state files (never commit) ----
+*.tfstate
+*.tfstate.*
+# .tfvars
+# *.tfvars.json
+
+# Allow example variable files
+!*.tfvars.example
+
+# ---- Terraform Crash Logs ----
+crash.log
+crash.*.log
+
+# ---- Sensitive files ----
+*.pem
+*.key
+*.p12
+*.crt
+
+# ---- Local settings ----
+# terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ---- Provider executables (Windows/Linux/Mac) ----
+*.exe
+*.zip
+*.tar.gz
+
+# ---- IDE / Editor junk ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
