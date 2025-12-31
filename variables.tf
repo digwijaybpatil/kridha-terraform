@@ -1,20 +1,3 @@
-# variable "rg_name" {
-#   type = string
-
-# }
-# variable "rg_location" {
-#   type    = string
-#   default = "central india"
-# }
-
-# variable "vnet_name" {
-#   type = string
-# }
-
-# variable "vnet_location" {
-#   type = string
-# }
-
 variable "application_name" {
   type = string
 }
@@ -24,7 +7,7 @@ variable "environment" {
 }
 
 variable "primary_location" {
-  
+  type = string
 }
 
 variable "address_space" {

@@ -1,11 +1,3 @@
-# rg_name = "rg-kridha"
-
-# rg_location = "central india"
-
-# vnet_name = "vnet-kridha"
-
-# vnet_location = "central india"
-
 application_name = "kridha-app"
 
 environment = "dev"
